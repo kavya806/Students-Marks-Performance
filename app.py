@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load trained model
-model = joblib.load("model/student_performance_model.pkl")
+model = joblib.load("student_performance_model.pkl")
 
 # Page title
 st.title("Student Marks Performance")
